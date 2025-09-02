@@ -12,7 +12,7 @@ PROJECT_DATA_DIR = "data/"
 
 PROJECT_FILES = {
 
-    "CView FD": os.path.join("E:\\Code\\BPL_Dashboard\\architecture_based\\data\\eeee.xlsx"),
+    "CView FD": os.path.join("E:\\OneDrive - BPL Medical Technologies Pvt. Ltd\Exports\\eeee.xlsx"),
     "VIVID View ": os.path.join(PROJECT_DATA_DIR, "data.xlsx"),
     "Patient Monitor": os.path.join(PROJECT_DATA_DIR, "1.csv"),
     "ECG": os.path.join(PROJECT_DATA_DIR, "C-ray Pro Plus Cview(II).xlsx"),
