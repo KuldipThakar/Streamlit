@@ -1,0 +1,95 @@
+.stApp {
+    background-color: #000000;
+}
+.main .block-container {
+    background-color: rgba(100, 100, 100, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.6s ease-in-out;
+}
+[data-testid="stSidebar"] {
+    background-color: rgba(100, 0, 100, 0.85);
+    animation: fadeInUp 0.6s ease-in-out;
+}
+h1, h2, h3 {
+    color: #ffffff;
+    animation: fadeInLeft 0.5s ease-in-out;
+}
+.stMarkdown, .stSelectbox, .stFileUploader {
+    color: #ffffff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1C2526;
+    color: #ffffff;
+    font-size: 14px;
+}
+th, td {
+    border: 2px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #2E3B3E;
+    font-weight: bold;
+}
+.project-tile {
+    background-color: #9fc5e8;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.project-tile:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+button[kind="primary"], button[kind="secondary"] {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+button[kind="primary"]:hover, button[kind="secondary"]:hover {
+    transform: scale(1.05);
+    background-color: #d0d0d0;
+}
+.stPlotlyChart {
+    animation: fadeInUp 0.8s ease-in-out;
+}
+.stMarkdown:not(.signature) {
+    animation: fadeIn 0.8s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+.signature {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #555555;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #dddddd;
+    animation: fadeIn 0.8s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
+.overdue-task {
+    animation: blink 1s infinite;
+}
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

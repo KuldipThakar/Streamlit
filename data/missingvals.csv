@@ -1,0 +1,21 @@
+﻿,Task No,Task,Bucket Name,Sub-bucket,Status,Progress,Assignees,Internal unit Testing,Priority,Completed Date,Created Date,Start date,End date,Completed By,Completed Checklist Items,Checklist Items,Remarks,Attachment (Proof),Item Type,Path
+0,1,50 Hz Notch filter Feasibility and implementation if possible ,Genx12 sustenance,,Completed,100,Anubhav Chaudhary;sanjana sampige;somesh ,false,Low,,2025-03-13T01:00:00.000,,2025-05-26T00:00:00.000,,4/6,5. Update the UI part with keyboard and touch functionality.;2. Will test and compare the filter working with counterpart machine.;3. Integrate  60 Hz filter with main code.;6. Update Filter Code as it did not show good response Impulse Response ;4. Test the CPU cycles consumed by filters(how much time it takes).;1.Integrated 50 hz filter generated from APP  before 17/03/2025.,,,Item,sites/ECGTeam761/Lists/Genx sustenance
+1,2,GENX3 UART DMA Check,Genx3 Sustenance ,,Completed,100,Anubhav Chaudhary;Someshwaran S,N.A.,Medium,,2025-03-07T00:00:00.000,2025-02-07T00:00:00.000,2025-05-27T00:00:00.000,,,,"Checking with 256k baud rate -Live transmission getting stopped;tried to transfer all the stored records (495) 1st time 438 records transferred, 2nd time all the 495 records tarnsferred
+256K baud rate is working in Record transfer ,but in live transfer some issue observed.
+tried with 921600 baud rate working fine in record transfer.
+Found some issues in live transfer",,Item,sites/ECGTeam761/Lists/Genx sustenance
+2,3,4_11 NiBP Limits: The limits for NIBP should be configurable and not to be fixed or auto corrected to upper limits.,Genx12 sustenance,,Completed,100,Mahesh DE,false,Medium,,2025-04-09T01:00:00.000,,,,,,"Ref:
+Re: Observations from ECG Camp – GenX12i+ Performance and Improvement Suggestions
+7/03/2025
+
+| Solution: |
+| --- |
+| We can increase it to 999/999 if required. |",,Item,sites/ECGTeam761/Lists/Genx sustenance
+3,4,"3_7 Freeze in Long Lead mode: In Long lead mode, when a record is freezed, the freeze record always appear in a 6X2 format. It is recommended to display and print the exact freezed data as seen on the screen.---Product Team Requirement",Genx12 sustenance,,Completed,100,Mahesh DE,false,Medium,,2025-09-04T01:00:00.000,,,,,Remove Freeze in Long Lead for time being. (As suggested by product Teams),"| Solution: |
+
+| --- |
+| Remove Freeze in Long Lead for time being. <br><br><br><br><br>Ref:<br>Re: Observations from ECG Camp – GenX12i+ Performance and Improvement Suggestions<br>7/03/2025 |",,Item,sites/ECGTeam761/Lists/Genx sustenance
+4,5,"2_5 Page Save Mode Issue: In Page Save mode with “ Auto export to USB” enabled, the record is transmitted first followed by preview page which needs to be vice-versa.",Genx12 sustenance,,Completed,100,Mahesh DE,false,Medium,,2025-04-09T01:00:00.000,,,,,,"Sol:
+
+| If Auto Export is enabled then there will be no preview.<br><br>If Auto Export is disabled then preview will be shown. <br><br><br><br><br>Ref:<br>Re: Observations from ECG Camp – GenX12i+ Performance and Improvement Suggestions<br>7/03/2025 |
+| --- |",,Item,sites/ECGTeam761/Lists/Genx sustenance
