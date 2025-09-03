@@ -92,7 +92,7 @@ def dashboard_page():
             st.session_state.show_remarks = None
             return
     with col2:
-        if st.button("Overall Project Status", key="to_overview"):
+        if st.button("Overall Project Status", key="to_overview "):
             st.session_state.page = 'overview'
             return
 
@@ -102,7 +102,7 @@ def dashboard_page():
 
     df = load_data(st.session_state.selected_file)
     if df is None:
-        st.error("Failed to load project data. Please check the file format and columns.")
+        st.error("Failed to load project data. Please check the file format and columns .")
         return
 
     st.subheader("🔍 Filter by Assignee")
